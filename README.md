@@ -1,6 +1,3 @@
-Perfecto, puedo hacer un **upgrade completo de tu README**: lo voy a transformar en **Markdown profesional**, con **badges visibles**, secciones más limpias, y estilo GitHub-ready. Aquí está la versión mejorada:
-
-```markdown
 # MADTEK - Sistema de Gestión de Ventas
 
 ![Android](https://img.shields.io/badge/Platform-Android-green)
