@@ -86,10 +86,14 @@ Proyecto académico para la **Universidad Don Bosco**. Todos los derechos reserv
 
 ---
 
+## 👥 Integrantes
+
+* **David Alejandro Alvarez Moreira** - AM240104
+* **Alejandro Marcelo Alemán Ayala** - AA240390
+* **Odir Ezequiel Diaz Peñate** - DP240089
+
+---
+
 ## 📬 Contacto
 
 * GitHub: [DavidAlvar3z](https://github.com/DavidAlvar3z)
-
-```
-
----
