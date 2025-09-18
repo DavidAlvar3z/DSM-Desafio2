@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F23">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvTituloNuevaVenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nueva Venta"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#00F5FF"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cliente:"
+            android:textSize="16sp"
+            android:textColor="#A0A0A0"
+            android:fontFamily="monospace"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCliente"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:background="#1A1A2E"
+            android:padding="16dp"
+            android:spinnerMode="dropdown"
+            android:fontFamily="monospace"
+            android:popupBackground="#1A1A2E"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnAgregarProducto"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Agregar Producto"
+            android:backgroundTint="#E94560"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginTop="16dp"
+            android:letterSpacing="0.1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Producto:"
+            android:textSize="16sp"
+            android:textColor="#A0A0A0"
+            android:fontFamily="monospace"
+            android:layout_marginTop="24dp" />
+
+        <Spinner
+            android:id="@+id/spinnerProducto"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:background="#1A1A2E"
+            android:padding="16dp"
+            android:spinnerMode="dropdown"
+            android:fontFamily="monospace"
+            android:popupBackground="#1A1A2E"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:textColor="#FFFFFF"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerProductosVenta"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="8dp"
+            android:clipToPadding="false" />
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total: $0.00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FF6B35"
+            android:fontFamily="monospace"
+            android:gravity="end"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnGuardarVenta"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Guardar Venta"
+            android:backgroundTint="#00F5FF"
+            android:textColor="#0F0F23"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginTop="24dp"
+            android:letterSpacing="0.1" />
+
+    </LinearLayout>
+</ScrollView>

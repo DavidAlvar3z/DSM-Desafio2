@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#0F0F23">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#1A1A2E"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AGREGAR PRODUCTO"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#00F5FF"
+            android:textAlignment="center"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="32dp"
+            android:background="#16213E"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE DEL PRODUCTO"
+            android:textColor="#FF6B35"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Nombre del producto"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="20dp"
+            android:background="#16213E"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A0A0A0"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRECIO"
+            android:textColor="#FF6B35"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Precio"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="20dp"
+            android:background="#16213E"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A0A0A0"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOCK DISPONIBLE"
+            android:textColor="#FF6B35"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etStock"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Stock"
+            android:inputType="number"
+            android:layout_marginBottom="20dp"
+            android:background="#16213E"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A0A0A0"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPCIÃ“N"
+            android:textColor="#FF6B35"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="DescripciÃ³n"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:layout_marginBottom="32dp"
+            android:background="#16213E"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A0A0A0"
+            android:fontFamily="monospace"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FF6B35"
+            android:layout_marginBottom="24dp"
+            android:alpha="0.8"/>
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="ðŸ’¾ GUARDAR PRODUCTO"
+            android:backgroundTint="#E94560"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.1"/>
+
+    </LinearLayout>
+
+</ScrollView>

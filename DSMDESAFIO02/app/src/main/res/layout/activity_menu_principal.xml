@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F23">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/logoMadtek"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="Logo MADTEK"
+            android:layout_marginTop="40dp"
+            android:background="#1A1A2E"
+            android:padding="24dp" />
+
+        <TextView
+            android:id="@+id/tituloMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENÚ PRINCIPAL"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#00F5FF"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.15" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/botonProductos"
+                android:layout_width="280dp"
+                android:layout_height="64dp"
+                android:text="🔧 PRODUCTOS"
+                android:backgroundTint="#E94560"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:letterSpacing="0.1" />
+
+            <Button
+                android:id="@+id/botonClientes"
+                android:layout_width="280dp"
+                android:layout_height="64dp"
+                android:text="👥 CLIENTES"
+                android:backgroundTint="#FF6B35"
+                android:textColor="#0F0F23"
+                android:layout_marginBottom="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:letterSpacing="0.1" />
+
+            <Button
+                android:id="@+id/botonVentas"
+                android:layout_width="280dp"
+                android:layout_height="64dp"
+                android:text="💰 VENTAS"
+                android:backgroundTint="#16213E"
+                android:textColor="#00F5FF"
+                android:layout_marginBottom="40dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:letterSpacing="0.1" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="3dp"
+            android:background="#FF6B35"
+            android:layout_marginBottom="24dp"
+            android:alpha="0.8" />
+
+        <Button
+            android:id="@+id/botonCerrarSesion"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:text="🚪 CERRAR SESIÓN"
+            android:backgroundTint="#1A1A2E"
+            android:textColor="#E94560"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+</ScrollView>

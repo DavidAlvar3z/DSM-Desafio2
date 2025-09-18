@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F23">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/logoMadtek"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="Logo MADTEK"
+            android:layout_marginTop="40dp"
+            android:background="#1A1A2E"
+            android:padding="20dp" />
+
+        <TextView
+            android:id="@+id/nombreApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MADTEK"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#00F5FF"
+            android:layout_marginTop="16dp"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.2" />
+
+        <TextView
+            android:id="@+id/eslogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tu tienda de tecnología favorita"
+            android:textSize="16sp"
+            android:textColor="#FF6B35"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="monospace"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:background="#1A1A2E"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A0A0A0"
+            android:fontFamily="monospace" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:background="#1A1A2E"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A0A0A0"
+            android:fontFamily="monospace" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="INICIAR SESIÓN"
+            android:backgroundTint="#E94560"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.1" />
+
+        <Button
+            android:id="@+id/goToRegisterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="¿No tienes cuenta? Regístrate"
+            android:backgroundTint="#16213E"
+            android:textColor="#00F5FF"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="monospace"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="2dp"
+            android:background="#FF6B35"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="o continúa con"
+            android:textColor="#A0A0A0"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="monospace" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="32dp">
+
+            <Button
+                android:id="@+id/githubButton"
+                android:layout_width="140dp"
+                android:layout_height="48dp"
+                android:text="GITHUB"
+                android:backgroundTint="#1A1A2E"
+                android:textColor="#00F5FF"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/facebookButton"
+                android:layout_width="140dp"
+                android:layout_height="48dp"
+                android:text="FACEBOOK"
+                android:backgroundTint="#16213E"
+                android:textColor="#FF6B35"
+                android:fontFamily="monospace"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F23">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerClientes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="48dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:overScrollMode="always"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/scrollbar_track" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAgregarCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Agregar cliente"
+        android:src="@drawable/ic_add"
+        android:tint="#FFFFFF"
+        app:backgroundTint="#00F5FF"
+        android:layout_margin="16dp"
+        app:layout_anchor="@id/recyclerClientes"
+        app:layout_anchorGravity="bottom|end"
+        app:elevation="10dp"
+        app:rippleColor="#FF6B35" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
