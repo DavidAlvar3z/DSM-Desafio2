@@ -80,6 +80,13 @@ cd DSM-Desafio2
 
 ---
 
+## 📺 Videos
+
+* [📖 Explicación de MVC y Código](https://youtu.be/FQITYG1YTSI)
+* [📱 Explicación de Funcionalidad de la App](https://youtu.be/y7sEYvdoX30)
+
+---
+
 ## 📄 Licencia
 
 Proyecto académico para la **Universidad Don Bosco**. Todos los derechos reservados a los autores.
