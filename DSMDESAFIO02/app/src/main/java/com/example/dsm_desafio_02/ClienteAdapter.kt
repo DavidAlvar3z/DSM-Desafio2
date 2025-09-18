@@ -14,6 +14,7 @@ class ClienteAdapter(
     class ClienteViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val nombre: TextView = view.findViewById(R.id.tvNombreCliente)
         val correo: TextView = view.findViewById(R.id.tvCorreoCliente)
+        val telefono: TextView = view.findViewById(R.id.tvTelefonoCliente)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClienteViewHolder {
@@ -24,9 +25,16 @@ class ClienteAdapter(
 
     override fun onBindViewHolder(holder: ClienteViewHolder, position: Int) {
         val cliente = clientes[position]
+
+        // Asignar los datos reales del cliente a las vistas
         holder.nombre.text = cliente.nombre
         holder.correo.text = cliente.correo
-        holder.itemView.setOnClickListener { onItemClick(cliente) }
+        holder.telefono.text = cliente.telefono
+
+        // Configurar click listener
+        holder.itemView.setOnClickListener {
+            onItemClick(cliente)
+        }
     }
 
     override fun getItemCount() = clientes.size
